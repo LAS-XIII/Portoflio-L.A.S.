@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contattami - L.A.S., Portfolio</title>
+        <link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="CSS/media.css">
+        <link rel="icon" type="image/x-icon" href="images/icons/LAS.png">
+        <meta property="og:title" content="Contatta il mio profilo" />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="contattami.html" />
+        <meta property="og:image" content="images/icons/LAS.png" />
+    </head>
+    
+    <body>
+        <img src="images/background main.jpeg" alt="">
+        <!-- HEADER -->
+        <header>
+            <img src="images/laptop_background.png" alt="">
+            <nav class="navbar">
+                <div class="logo">Il mio Portfolio - <em> L.A.S. </em></div>
+                <div class="menu">
+                    <ul>
+                        <li class="menu-tendina">
+                            <ul><span class="menu-symbol">&#9776</span>
+                                <li class="menu-secondary"><a href="Portfolio.html" target="_blank">Home</a></li>
+                                <li class="menu-secondary"><a href="Portfolio.html" target="_blank">Su di me</a></li>
+                                <li class="menu-secondary"><a href="cv.html" target="_blank">Curriculum</a></li>
+                                <li class="menu-secondary"><a href="#"  target="_blank">Contattami</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="titlebar">
+                <div class="pre-title">Ciao a tutti, mi chiamo</div>
+                <div class="title">Luca Antonio Spiga</div>
+                <div class="sub-title">Junior Full Stack Web Developer</div>
+                <button class="btn"><a href="lavori.html" target="_blank">My Work</a></button>
+            </div>
+        </header>
+        <!-- MAIN - FORM -->
+        <main class="form">
+            <p>
+                Se siete interessati a maggiori informazioni su di me, sui miei lavori o altro potete scrivermi qua sotto compilando il form di seguito.
+            </p>
+            <form>
+                <div class="name-form">
+                    Come ti chiami? *
+                    <input type="text" class="form-I" id="from_name" name="fullName" minlength="3" placeholder="from_name" required>
+                </div>
+                <div class="email-form">
+                    Qual è la tua mail? *
+                    <input type="email" class="form-I" id="email_id" name="email" minlength="3" placeholder="email_id"required>
+                </div>
+                <div class="message-form">
+                    Scrivimi qui... *
+                    <textarea class="form-M" id="mess_id" placeholder="mess_id" required></textarea>
+                </div>
+                <div>
+                    <button onclick="SendMail()" class="btn input">Invia</button>
+                </div>
+            </form>
+        </main>
+        <!-- FOOTER -->
+        <footer>
+            <div class="social-icon">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/icons/facebook.png" alt=""></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/icons/instagram.png" alt=""></a>
+                <a href="mailto:someone@example.com" target="_blank"><img src="images/icons/gmail.png" alt=""></a>
+                <a href="https://www.linkedin.com/feed/" target="_blank"><img src="images/icons/linkedin.png" alt=""></a>
+                <a href="https://github.com/" target="_blank"><img src="images/icons/github-sign.png" alt=""></a>
+            </div>
+            <div class="contattami">
+                se vuoi sapere qualcosa in più di me contattami qui!
+                <bottom class="btn contact"><a href="#" target="_blank">Contattami</a></bottom>
+            </div>
+        </footer>
+
+    </body>
+
+</html>
