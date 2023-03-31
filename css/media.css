@@ -1,0 +1,220 @@
+@media screen and (max-width: 1200px) and (min-width: 951px) {
+
+    /* HEADER */
+
+    .biografia {
+        font-size: 16px;
+        line-height: 1.9rem;
+    }
+
+}
+
+
+
+@media screen and (max-width: 950px) and (min-width: 756px) {
+
+    /* HEADER */
+
+    header > img {
+        width: 90%
+    }
+
+    /* MAIN */
+
+    .biografia {
+        font-size: 14px;
+        line-height: 1.8rem;
+    }
+
+
+    /*  FORMS */
+
+    .form {
+        width: 90%;
+    }
+   
+    .skillbox {
+        justify-content: space-around;
+    }
+
+    .skill {
+        min-width: 300px;
+        max-width: 50%;
+    }
+
+    .skillfoto {
+        width: 100%;
+        max-height: 60%;
+    }
+
+}
+
+
+@media screen and (max-width: 756px) {
+
+    /* HEADER */
+
+    header > img {
+        width: 90%
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .logo {
+        height: 0px;
+        width: 0px;
+        font-size: 0px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .menu, .menu li {
+        width: 100%;
+        justify-content: center;
+        display: block;
+        text-align: center;
+        height: auto;
+        font-size: 0px;
+    }
+
+    .menu {
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    li.menu-tendina {
+        padding: 0px;
+    }
+
+
+    .menu .menu-symbol {
+        font-size: 25px;
+        height: auto;
+        font-weight: bold;
+    }
+
+    .menu:hover li{
+        font-size: 15px;
+        padding: 25px;
+    }
+    
+    .menu:hover .menu-symbol {
+        display: none;
+    }
+
+    .menu:hover .menu {
+        padding: 0px;
+    }
+
+    /* TITLE */
+
+    .titlebar {
+        min-height: 400px;
+        width: 90%;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .sub-title, .pre-title {
+        font-size: 20px;
+    }
+    
+    /* MAINS */
+
+    .sottonome {
+        margin-bottom: 40px;
+    }
+
+    .biografia {
+        width: 90%;
+        font-size: 14px;
+        line-height: 1.8rem;
+    }
+
+    .foto {
+        align-self: center;
+        margin-bottom: 50px;
+        border-radius: 150px;
+        min-width: 250px;
+        min-height: 250px;
+    }
+   
+    .skillbox {
+        justify-content: space-around;
+    }
+
+    .skill {
+        min-width: 250px;
+        max-width: 50%;
+    }
+
+    .skillfoto {
+        width: 100%;
+        max-height: 60%;
+    }
+
+    /*  FORMS */
+
+    .form {
+        width: 90%;
+    }
+
+    .form p {
+        font-size: 16px;
+    }
+
+    .contattami {
+        width: 90%;
+    }
+
+    /* WORK */
+
+    .myWork {
+        font-size: 25px;
+    }
+
+
+}
+
+
+
+
+
+@media screen and (max-width: 450px) {
+
+    /* HEADER */
+
+    .foto {
+        min-width: 200px;
+        min-height: 200px;
+    }
+
+    /* FOOTER */
+
+    .social-icon img {
+        width: 60px;
+        margin: 50px 0px 25px 0px;
+        padding: 10px;
+        filter: invert(100%);
+        opacity: 0.5;
+        border-radius: 5px;
+    }
+
+    .skill {
+        width: 100%;
+    }
+
+    .skillfoto {
+        width: 100%;
+        max-height: 60%;
+    }
+
+}
